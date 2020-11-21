@@ -113,7 +113,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "./../assets/scss/base.scss";
 @import "./../assets/scss/mixin.scss";
 @import "./../assets/scss/config.scss";

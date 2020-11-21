@@ -15,7 +15,7 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import './../assets/scss/mixin.scss';
   .service{
     padding:33px 0;
