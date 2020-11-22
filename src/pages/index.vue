@@ -215,6 +215,7 @@ export default {
         },
       ],
       phoneList: [],
+      showModal:false
     };
   },
   mounted() {
