@@ -6,6 +6,8 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import VueLazyLoad from 'vue-lazyload'
 import VueCookie from 'vue-cookie'
+import { Message } from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 
 // mock开关
 const mock = false;
@@ -28,13 +30,13 @@ axios.interceptors.response.use(function(response){
     window.location.href = '/login';
     return Promise.reject(res);
   }else{
-    // Message.warning(res.msg);
+    Message.warning(res.msg);
     return Promise.reject(res);
   }
 },(error)=>{
   let res = error.response;
   alert(res.data.message)
-  // Message.error(res.data.message);
+  Message.error(res.data.message);
   return Promise.reject(error);
 });
 
@@ -43,6 +45,7 @@ Vue.use(VueCookie);
 Vue.use(VueLazyLoad,{
   loading:'/imgs/loading-svg/loading-bars.svg'
 })
+Vue.prototype.$message = Message;
 Vue.config.productionTip = false
 
 new Vue({
