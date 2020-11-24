@@ -27,11 +27,11 @@
     </div>
     <div class="footer">
       <div class="footer-link">
-        <a href="javascript:;" target="_blank">简体</a><span>|</span>
-        <a href="javascript:;" target="_blank">繁体</a><span>|</span>
-        <a href="javascript:;" target="_blank">English</a><span>|</span>
-        <a href="javascript:;" target="_blank">常见问题</a><span>|</span>
-        <a href="javascript:;" target="_blank">隐私政策</a>
+        <a href="javascript:;">简体</a><span>|</span>
+        <a href="javascript:;">繁体</a><span>|</span>
+        <a href="javascript:;">English</a><span>|</span>
+        <a href="javascript:;">常见问题</a><span>|</span>
+        <a href="javascript:;">隐私政策</a>
       </div>
       <p class="copyright">Copyright ©2019 mi.com All Rights Reserved.</p>
     </div>
@@ -42,8 +42,8 @@ import { mapActions } from 'vuex';
 export default {
   data(){
     return {
-      username:'',
-      password:'',
+      username:'admin1',
+      password:'admin1',
       userId:''
     }
   },
@@ -155,7 +155,7 @@ export default {
     height:100px;
     padding-top:60px;
     color:#999999;
-    font-size:16px;
+    font-size:14px;
     text-align:center;
     .footer-link{
       a{
