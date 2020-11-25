@@ -1,24 +1,12 @@
 # vue-mall
 
-## Project setup
-```
-yarn install
-```
+vue-cli4 + vue2 + vue-router + vuex + axios + sass构建
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 启动
 
-### Compiles and minifies for production
 ```
-yarn build
-```
+# yarn install (安装依赖)
+# yarn serve (本地运行)
+# yarn build (打包)
 
-### Lints and fixes files
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
