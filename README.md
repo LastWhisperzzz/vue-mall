@@ -1,5 +1,6 @@
 # vue-mall
 
+小米商城
 vue-cli4 + vue2 + vue-router + vuex + axios + sass构建
 
 ## 启动
